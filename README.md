@@ -27,6 +27,7 @@ Lua combina sintaxe procedural simples com poderosas construções para descriç
 
 # Exemplos de Scripts em Lua
 
+
 ```lua
 -- Enunciado: Programa Sálario do Funcionário
 -- Programa Desenvolvido em Lua 5.4
@@ -37,9 +38,9 @@ Lua combina sintaxe procedural simples com poderosas construções para descriç
 	deve ao final mostrar o valor do pagamento bruto em R$, do desconto 
 	efetuado e do valor líquido pago em R$.]]--
 
-	print("\n-=-=-=-=-=-=--=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-")
+    print("\n-=-=-=-=-=-=--=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-")
     print("\t\t Programa Salario do Funcionario ")
-    print("-=-=-=-=-=-=--=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-")
+    print("-=-=-=-=-=-=--=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-\n")
     
     -- inicio do programa ex11.lua
 
@@ -57,6 +58,7 @@ Lua combina sintaxe procedural simples com poderosas construções para descriç
    salario_liquido = salario_bruto - desconto 
    
    print("\n---------------------------------------------\n")	
+   
    io.write(" Salario bruto ...: R$ ")
    io.write(string.format("%7.2f", salario_bruto), "\n")
    io.write(" Desconto ........: ")
