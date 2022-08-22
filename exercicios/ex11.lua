@@ -33,6 +33,11 @@
    io.write(string.format("%7.2f", desconto), "\n")
    io.write(" Salario liquido .: R$ ")
    io.write(string.format("%7.2f", salario_liquido), "\n")
+   
+   print("\n---------------------------------------------\n")	
+   
+   io.write("\n Tecle <Enter> para encerrar o programa.")
+   io.read()
 
 -- fim do programa ex11.lua
 
