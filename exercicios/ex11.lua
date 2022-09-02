@@ -13,13 +13,13 @@
     
     -- inicio do programa ex11.lua
 
-   io.write("\n Entre as horas trabalhadas ......: ")
+   io.write("\n Entre com as horas trabalhadas ......: ")
    horas_trabalhadas = io.read("*number")
 
-   io.write(" Entre o valor da hora em ...........: R$ ")
+   io.write(" Entre com o valor da hora em ...........: R$ ")
    valor_hora = io.read("*number")
 
-   io.write(" Entre o percentual de desconto ..: ")
+   io.write(" Entre com o percentual de desconto ..: ")
    per_desconto = io.read("*number")
 
    salario_bruto = horas_trabalhadas * valor_hora
