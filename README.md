@@ -4,7 +4,7 @@
 
 ## Lógica de Programação
 
-<p> Na realidade um programa é um conjunto de milhares de instruções que indicam ao computador, passo a passo, o que ele precisa fazer. Logo, um programa nada mais é do que um algoritmo computacional descrito em uma linguagem de programação, no caso, utilisando a  simplicidade da linguagem Python que possui um enorme potencial não apenas como uma linguagem poderosa de programação, mas como uma  ferramenta para mudar o seu futuro como desenvolvedor...</p><br>
+<p> Na realidade um programa é um conjunto de milhares de instruções que indicam ao computador, passo a passo, o que ele precisa fazer. Logo, um programa nada mais é do que um algoritmo computacional descrito em uma linguagem de programação, no caso, utilisando a  simplicidade da linguagem Lua que possui um enorme potencial não apenas como uma linguagem poderosa de programação, mas como uma  ferramenta para mudar o seu futuro como desenvolvedor...</p><br>
 
 <img src="logo.jpg" alt="logo lua no formato jpg"><br>
 
@@ -42,7 +42,7 @@ Lua combina sintaxe procedural simples com poderosas construções para descriç
     print("\t\t Programa Salario do Funcionario ")
     print("-=-=-=-=-=-=--=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-\n")
     
-    -- inicio do programa ex11.lua
+    -- inicio do programa em lua
 
    io.write("\n Entre as horas trabalhadas ......: ")
    horas_trabalhadas = io.read("*number")
@@ -71,7 +71,43 @@ Lua combina sintaxe procedural simples com poderosas construções para descriç
    io.write("\n Tecle <Enter> para encerrar o programa.")
    io.read()
 
--- fim do programa ex11.lua
+-- fim do programa em lua
+```
+```lua
+
+***
+
+-- Enunciado: Trigonometria:Seno, Cosseno e Tangente
+-- Programa Desenvolvido em Lua 5.4
+
+--[[Desenvolva um programa que leia um ângulo qualquer e mostre na tela
+	os valores trigonométrico desse ângulo.]]--
+	
+	-- Inicio do programa em lua
+
+	print("\n-=-=-=-=-=-=--=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-")
+	print("\t  Trigonometria: Seno, Cosseno e Tangente")
+	print("-=-=-=-=-=-=--=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-\n")
+	
+	io.write(" Informe um angulo qualquer: ") 
+	angulo = tonumber(io.read()) 
+	seno = math.sin(math.rad(angulo))
+	cosseno = math.cos(math.rad(angulo))
+	tangente = math.tan(math.rad(angulo))
+	
+	io.write(" O Angulo de "..angulo.. " tem o Seno de :")
+	io.write(string.format("%7.2f", seno), "\n")
+	
+	io.write(" O Angulo de "..angulo.. " tem o Cosseno de :")
+	io.write(string.format("%7.2f", cosseno), "\n")
+	
+	io.write(" O Angulo de "..angulo.. " tem a Tangente de :")
+	io.write(string.format("%7.2f", tangente), "\n")
+	
+	io.write("\n Tecle <Enter> para encerrar o programa.")
+	io.read'*l'
+	
+	-- Fim do programa em lua
 ```
 
 ## IMPORTANTE: 
